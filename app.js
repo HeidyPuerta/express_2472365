@@ -1,6 +1,7 @@
+require('dotenv').config()
 const express = require('express') //importar el paquete express
 const app = express()
-const port = 8282  //Definir el puerto
+const port = 2222  //Definir el puerto
 
 //servidor contenido estatico
 //Establecer el directorio donde se encuentran los archivos html
